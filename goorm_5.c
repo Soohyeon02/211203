@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
-	int korean, english, math = 0;
+	float korean, english, math = 0;
 	float avg = 0;
-	scanf_s("%d %d %d", &korean, &english, &math);
+	scanf_s("%f %f %f", &korean, &english, &math);
 	avg = (korean + english + math) / 3;
 	if (avg >= 90) {
 		printf("%.2f A", avg);
